@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Home, Table, Sparkles, GraduationCap, Cpu, Wifi, Satellite, Clock, Radio, Zap, Atom, Waves, Eye, Shield, Activity, ChevronDown, ChevronUp } from "lucide-react";
+import { Home, Table, Sparkles, GraduationCap, Cpu, Wifi, Satellite, Clock, Radio, Zap, Atom, Eye, Shield, Activity, ChevronDown, ChevronUp } from "lucide-react";
 
 interface PhysicsRealWorldPageProps {
   onBack: () => void;
@@ -458,7 +458,7 @@ export function PhysicsRealWorldPage({ onBack, onGoToTable, onGoToAstrophysics, 
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20">
+      <section className="relative overflow-hidden py-20" >
         <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 via-transparent to-purple-500/10" />
 
         {/* Animated circuit lines */}

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "motion/react";
-import { Home, Atom, Sparkles, Flame, Star, Zap, CircleDot, Table, Microscope, Globe, ChevronLeft, ChevronRight, Eclipse, Telescope, Eye, Radio, Waves, Sun, Moon, Clock, MapPin, Orbit, Cpu } from "lucide-react";
+import { Home, Atom, Sparkles, Flame, Star, Zap, CircleDot, Table, Microscope, Globe, ChevronRight, Eclipse, Telescope, Eye, Radio, Waves, Sun, Clock, MapPin, Orbit, Cpu } from "lucide-react";
 // import { ImageWithFallback } from "@/components/ImageWithFallback";
 
 interface AstrophysicsPageProps {
