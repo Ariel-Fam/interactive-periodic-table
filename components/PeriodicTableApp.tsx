@@ -180,30 +180,35 @@ export function PeriodicTableApp() {
     setCurrentView("cover");
     setSelectedElement(null);
     setSearchQuery("");
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleGoToTable = () => {
     setCurrentView("table");
     setSelectedElement(null);
     setSearchQuery("");
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleGoToAstrophysics = () => {
     setCurrentView("astrophysics");
     setSelectedElement(null);
     setSearchQuery("");
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleGoToAtomicScience = () => {
     setCurrentView("atomicScience");
     setSelectedElement(null);
     setSearchQuery("");
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleGoToPhysicsRealWorld = () => {
     setCurrentView("physicsRealWorld");
     setSelectedElement(null);
     setSearchQuery("");
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   // Filter elements based on search

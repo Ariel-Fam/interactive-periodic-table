@@ -1874,18 +1874,20 @@ export function AstrophysicsPage({ onBack, onGoToTable, onGoToAtomicScience, onG
                       <div
                         className={`w-20 h-16 ${band.color} rounded-t-lg flex items-center justify-center relative`}
                       >
-                        {band.blocked === true && (
+                        {band.blocked === true && !band.telescope && (
                           <div className="absolute inset-0 bg-black/60 rounded-t-lg flex items-center justify-center">
                             <span className="text-xs text-red-400">Blocked</span>
                           </div>
                         )}
-                        {band.blocked === "Partial" && (
+                        {band.blocked === "Partial" && !band.telescope && (
                           <div className="absolute inset-0 bg-black/30 rounded-t-lg flex items-center justify-center">
                             <span className="text-xs text-yellow-400">Partial</span>
                           </div>
                         )}
                         {band.telescope && (
-                          <span className="text-xs text-white font-medium z-10">{band.telescope}</span>
+                          <div className={`absolute inset-0 ${band.blocked === true ? 'bg-black/60' : band.blocked === "Partial" ? 'bg-black/30' : ''} rounded-t-lg flex items-center justify-center`}>
+                            <span className={`text-xs font-medium ${band.blocked === true ? 'text-amber-400' : band.blocked === "Partial" ? 'text-yellow-300' : 'text-white'}`}>{band.telescope}</span>
+                          </div>
                         )}
                       </div>
                       <div className="bg-slate-900 p-2 rounded-b-lg w-20 text-center">

@@ -73,7 +73,7 @@ export function CoverPage({ onEnter, onAstrophysics, onAtomicScience, onPhysicsR
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.8 }}
-          className="grid md:grid-cols-3 gap-6 mb-12"
+          className="grid md:grid-cols-3 gap-6 mb-12 w-[70vw] mx-auto"
         >
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6">
             <Atom className="w-8 h-8 text-blue-400 mx-auto mb-3" />
@@ -96,57 +96,57 @@ export function CoverPage({ onEnter, onAstrophysics, onAtomicScience, onPhysicsR
               Images and facts to enhance understanding
             </p>
           </div>
-        </motion.div>
+        </motion.div  >
 
         {/* Action buttons */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1, duration: 0.5 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          className="flex flex-wrap gap-3 justify-center items-center"
         >
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onEnter}
-            className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center gap-2 shadow-lg shadow-blue-500/50 transition-all"
+            className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-5 py-3.5 rounded-full text-sm font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-blue-500/50 transition-all"
           >
-            <Atom className="w-5 h-5" />
+            <Atom className="w-4 h-4" />
             Explore the Table
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </motion.button>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onAstrophysics}
-            className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center gap-2 shadow-lg shadow-purple-500/50 transition-all"
+            className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-5 py-3.5 rounded-full text-sm font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-purple-500/50 transition-all"
           >
-            <Sparkles className="w-5 h-5" />
+            <Sparkles className="w-4 h-4" />
             Cosmic Origins
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </motion.button>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onAtomicScience}
-            className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center gap-2 shadow-lg shadow-cyan-500/50 transition-all"
+            className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white px-5 py-3.5 rounded-full text-sm font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-cyan-500/50 transition-all"
           >
-            <GraduationCap className="w-5 h-5" />
+            <GraduationCap className="w-4 h-4" />
             Atomic Science
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </motion.button>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onPhysicsRealWorld}
-            className="bg-gradient-to-r from-violet-500 to-indigo-500 hover:from-violet-600 hover:to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center gap-2 shadow-lg shadow-violet-500/50 transition-all"
+            className="bg-gradient-to-r from-violet-500 to-indigo-500 hover:from-violet-600 hover:to-indigo-600 text-white px-5 py-3.5 rounded-full text-sm font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-violet-500/50 transition-all"
           >
-            <Cpu className="w-5 h-5" />
+            <Cpu className="w-4 h-4" />
             Physics & Tech
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </motion.button>
         </motion.div>
 
