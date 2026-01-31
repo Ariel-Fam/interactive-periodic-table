@@ -949,7 +949,7 @@ export function AstrophysicsPage({ onBack, onGoToTable, onGoToAtomicScience, onG
               </div>
             </motion.div>
             <div>
-              <h1 className="text-2xl font-bold text-white">Cosmic Nucleosynthesis</h1>
+              <h1 className="text-2xl font-bold text-white">Cosmic Genesis</h1>
               <p className="text-sm text-slate-400">The Origin of Elements</p>
             </div>
           </div>
