@@ -408,7 +408,14 @@ export function PhysicsRealWorldPage({ onBack, onGoToTable, onGoToAstrophysics, 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-violet-950 to-slate-950">
       {/* Header */}
-      <header className="bg-slate-900/50 backdrop-blur-sm border-b border-slate-700 sticky top-0 z-40">
+      <header 
+        className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700 sticky top-0 z-40"
+        style={{
+          transform: "translateZ(0)",
+          WebkitBackfaceVisibility: "hidden",
+          backfaceVisibility: "hidden",
+        }}
+      >
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <motion.div
