@@ -232,7 +232,7 @@ const solarSystemPlanets = [
   {
     name: "Mercury",
     type: "Terrestrial",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/1200px-Mercury_in_true_color.jpg",
+    image: "/planets/mercury.png",
     color: "from-gray-400 to-gray-600",
     borderColor: "border-gray-500",
     bgColor: "bg-gray-500/10",
@@ -257,7 +257,7 @@ const solarSystemPlanets = [
   {
     name: "Venus",
     type: "Terrestrial",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/1200px-Venus_from_Mariner_10.jpg",
+    image: "/planets/venus.png",
     color: "from-yellow-500 to-orange-500",
     borderColor: "border-yellow-500",
     bgColor: "bg-yellow-500/10",
@@ -283,7 +283,7 @@ const solarSystemPlanets = [
   {
     name: "Earth",
     type: "Terrestrial",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1200px-The_Blue_Marble_%28remastered%29.jpg",
+    image: "/planets/earth.png",
     color: "from-blue-500 to-green-500",
     borderColor: "border-blue-500",
     bgColor: "bg-blue-500/10",
@@ -309,7 +309,7 @@ const solarSystemPlanets = [
   {
     name: "Mars",
     type: "Terrestrial",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1200px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+    image: "/planets/mars.png",
     color: "from-red-500 to-orange-600",
     borderColor: "border-red-500",
     bgColor: "bg-red-500/10",
@@ -335,7 +335,7 @@ const solarSystemPlanets = [
   {
     name: "Jupiter",
     type: "Gas Giant",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/1200px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+    image: "/planets/jupiter.png",
     color: "from-orange-400 to-amber-600",
     borderColor: "border-orange-500",
     bgColor: "bg-orange-500/10",
@@ -361,7 +361,7 @@ const solarSystemPlanets = [
   {
     name: "Saturn",
     type: "Gas Giant",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1200px-Saturn_during_Equinox.jpg",
+    image: "/planets/saturn.png",
     color: "from-yellow-300 to-amber-500",
     borderColor: "border-yellow-400",
     bgColor: "bg-yellow-400/10",
@@ -387,7 +387,7 @@ const solarSystemPlanets = [
   {
     name: "Uranus",
     type: "Ice Giant",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
+    image: "/planets/uranus.png",
     color: "from-cyan-400 to-teal-500",
     borderColor: "border-cyan-500",
     bgColor: "bg-cyan-500/10",
@@ -413,7 +413,7 @@ const solarSystemPlanets = [
   {
     name: "Neptune",
     type: "Ice Giant",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/1200px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+    image: "/planets/neptune.png",
     color: "from-blue-500 to-indigo-600",
     borderColor: "border-blue-600",
     bgColor: "bg-blue-600/10",
@@ -551,7 +551,7 @@ const famousBlackHoles = [
     location: "Center of M87 Galaxy",
     mass: "6.5 billion M☉",
     distance: "55 million light-years",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    image: "/m87.webp",
     fact: "First black hole ever photographed (2019). Its event horizon is larger than our entire solar system. Has a relativistic jet 5,000 light-years long.",
   },
   {
